@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparador de Passagens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="18" fill="#90caf9"/></svg>
+      <span>PassagensZen</span>
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Encontre e compare passagens com facilidade</h1>
+      <form id="searchForm" class="search-form">
+        <input type="text" id="origem" placeholder="Origem" required>
+        <input type="text" id="destino" placeholder="Destino" required>
+        <input type="date" id="data" required>
+        <button type="submit">Pesquisar</button>
+      </form>
+    </section>
+    <section id="results" class="results">
+      <p>Digite os dados acima e compare preços de passagens!</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 PassagensZen. Todos os direitos reservados.</p>
+  </footer>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
