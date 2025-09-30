@@ -1,1 +1,0 @@
-# nuvemtrip00
